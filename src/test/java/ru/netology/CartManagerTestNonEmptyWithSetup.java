@@ -2,9 +2,6 @@ package ru.netology;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import ru.netology.domain.PurchaseItem;
-import ru.netology.manager.CartManager;
-
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public class CartManagerTestNonEmptyWithSetup {
@@ -31,16 +28,16 @@ public class CartManagerTestNonEmptyWithSetup {
 //    assertEquals(expected, actual);
     assertArrayEquals(expected, actual);
   }
-
-  @Test
-  public void shouldNotRemoveIfNotExists() {
-    int idToRemove = 4;
-
-    manager.removeById(idToRemove);
-
-    PurchaseItem[] actual = manager.getAll();
-    PurchaseItem[] expected = new PurchaseItem[]{third, second, first};
-
-    assertArrayEquals(expected, actual);
-  }
+//
+//  @Test
+//  public void shouldNotRemoveIfNotExists() {
+//    int idToRemove = 4;
+//
+//    manager.removeById(idToRemove);
+//
+//    PurchaseItem[] actual = manager.getAll();
+//    PurchaseItem[] expected = new PurchaseItem[]{third, second, first};
+//
+//    assertArrayEquals(expected, actual);
+//  }
 }
