@@ -23,18 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9183c5a-0b07-4a4c-a091-29507e28e665" name="Default Changelist" comment="added task #1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/neetologyRepository/PosterRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/neetologyRepository/PosterRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/PosterManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/PosterManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/UpdatePoster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/UpdatePoster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Poster-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/PosterManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/PosterManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,29 +71,45 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.netology" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ru.netology" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\QA igabi\Projects\IDE 12 (Autotet 7)\Poster\src\test\java\ru\netology" />
       <recent name="C:\Users\User\QA igabi\Projects\IDE 12 (Autotet 7)\Poster\src\main\java\ru\netology" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PosterRepositoryTest.shouldFindAllAndSaveMovie">
-    <configuration name="PosterRepositoryTest.removeByIdMovie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PosterManagerTest.show10Movies">
+    <configuration name="PosterManagerTest.show10Movies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Poster" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.neetologyRepository.*" />
+          <option name="PATTERN" value="ru.netology.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.neetologyRepository" />
-      <option name="MAIN_CLASS_NAME" value="ru.neetologyRepository.PosterRepositoryTest" />
-      <option name="METHOD_NAME" value="removeByIdMovie" />
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.PosterManagerTest" />
+      <option name="METHOD_NAME" value="show10Movies" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PosterManagerTest.show5Movies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Poster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.PosterManagerTest" />
+      <option name="METHOD_NAME" value="show5Movies" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,29 +163,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PosterRepositoryTest.shouldRemoveAllMovie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Poster" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.neetologyRepository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.neetologyRepository" />
-      <option name="MAIN_CLASS_NAME" value="ru.neetologyRepository.PosterRepositoryTest" />
-      <option name="METHOD_NAME" value="shouldRemoveAllMovie" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PosterManagerTest.show10Movies" />
+        <item itemvalue="JUnit.PosterManagerTest.show5Movies" />
         <item itemvalue="JUnit.PosterRepositoryTest.shouldFindAllAndSaveMovie" />
         <item itemvalue="JUnit.PosterRepositoryTest.shouldFindByIdMovie" />
         <item itemvalue="JUnit.PosterRepositoryTest.shouldNotFindByIdMovie" />
-        <item itemvalue="JUnit.PosterRepositoryTest.removeByIdMovie" />
-        <item itemvalue="JUnit.PosterRepositoryTest.shouldRemoveAllMovie" />
       </list>
     </recent_temporary>
   </component>
@@ -269,38 +260,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="555" y="135" key="Github.UntrackedFilesDialog/0.0.1600.860@0.0.1600.860" timestamp="1602966142611" />
-    <state width="1557" height="144" key="GridCell.Tab.0.bottom" timestamp="1603139708359">
+    <state width="1557" height="233" key="GridCell.Tab.0.bottom" timestamp="1603145089546">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="144" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1603139708359" />
-    <state width="1557" height="144" key="GridCell.Tab.0.center" timestamp="1603139708359">
+    <state width="1557" height="233" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1603145089546" />
+    <state width="1557" height="233" key="GridCell.Tab.0.center" timestamp="1603145089546">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="144" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1603139708359" />
-    <state width="1557" height="144" key="GridCell.Tab.0.left" timestamp="1603139708359">
+    <state width="1557" height="233" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1603145089546" />
+    <state width="1557" height="233" key="GridCell.Tab.0.left" timestamp="1603145089546">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="144" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1603139708359" />
-    <state width="1557" height="144" key="GridCell.Tab.0.right" timestamp="1603139708359">
+    <state width="1557" height="233" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1603145089546" />
+    <state width="1557" height="233" key="GridCell.Tab.0.right" timestamp="1603145089546">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="144" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1603139708359" />
-    <state width="1557" height="233" key="GridCell.Tab.1.bottom" timestamp="1603138775663">
+    <state width="1557" height="233" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1603145089546" />
+    <state width="1557" height="233" key="GridCell.Tab.1.bottom" timestamp="1603145089546">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="233" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1603138775663" />
-    <state width="1557" height="233" key="GridCell.Tab.1.center" timestamp="1603138775663">
+    <state width="1557" height="233" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1603145089546" />
+    <state width="1557" height="233" key="GridCell.Tab.1.center" timestamp="1603145089546">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="233" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1603138775663" />
-    <state width="1557" height="233" key="GridCell.Tab.1.left" timestamp="1603138775663">
+    <state width="1557" height="233" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1603145089546" />
+    <state width="1557" height="233" key="GridCell.Tab.1.left" timestamp="1603145089546">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="233" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1603138775663" />
-    <state width="1557" height="233" key="GridCell.Tab.1.right" timestamp="1603138775663">
+    <state width="1557" height="233" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1603145089546" />
+    <state width="1557" height="233" key="GridCell.Tab.1.right" timestamp="1603145089546">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="233" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1603138775663" />
+    <state width="1557" height="233" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1603145089546" />
     <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1603063599551">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -309,6 +300,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="571" y="228" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1600.860@0.0.1600.860" timestamp="1603137550377" />
+    <state x="345" y="166" width="909" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1603143723944">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="345" y="166" width="909" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1600.860@0.0.1600.860" timestamp="1603143723944" />
     <state x="500" y="187" key="refactoring.ChangeSignatureDialog" timestamp="1603056299553">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -317,5 +312,15 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1603063019064" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
