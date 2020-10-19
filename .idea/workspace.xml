@@ -22,27 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9183c5a-0b07-4a4c-a091-29507e28e665" name="Default Changelist" comment="change code">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/PosterManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/PosterManagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/CartManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/PurchaseItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/UpdatePoster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/CartManagerTestNonEmpty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/CartManagerTestNonEmptyWithSetup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Poster-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/CartManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/PurchaseItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/netology/CartManagerTestNonEmpty.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/netology/CartManagerTestNonEmptyWithSetup.class" beforeDir="false" />
-    </list>
+    <list default="true" id="c9183c5a-0b07-4a4c-a091-29507e28e665" name="Default Changelist" comment="change code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,15 +65,15 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.netology" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\QA igabi\Projects\IDE 12 (Autotet 7)\Poster\src\test\java\ru\netology" />
-      <recent name="C:\Users\User\QA igabi\Projects\IDE 12 (Autotet 7)\Poster\src\main\java\ru\netology" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ru.netology" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\QA igabi\Projects\IDE 12 (Autotet 7)\Poster\src\test\java\ru\netology" />
+      <recent name="C:\Users\User\QA igabi\Projects\IDE 12 (Autotet 7)\Poster\src\main\java\ru\netology" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.PosterManagerTest.show11Movies">
@@ -229,6 +209,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add gitignore" />
