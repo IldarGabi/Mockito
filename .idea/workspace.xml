@@ -24,7 +24,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c9183c5a-0b07-4a4c-a091-29507e28e665" name="Default Changelist" comment="added task #1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/neetologyRepository/PosterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/neetologyRepository/PosterRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/PosterManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/PosterManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/UpdatePoster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/UpdatePoster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/neetologyRepository/PosterRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/neetologyRepository/PosterRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/PosterManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/PosterManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,18 +74,18 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.netology" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\QA igabi\Projects\IDE 12 (Autotet 7)\Poster\src\test\java\ru\netology" />
+      <recent name="C:\Users\User\QA igabi\Projects\IDE 12 (Autotet 7)\Poster\src\main\java\ru\netology" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ru.netology" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\QA igabi\Projects\IDE 12 (Autotet 7)\Poster\src\test\java\ru\netology" />
-      <recent name="C:\Users\User\QA igabi\Projects\IDE 12 (Autotet 7)\Poster\src\main\java\ru\netology" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.PosterManagerTest.show10Movies">
+  <component name="RunManager" selected="JUnit.PosterManagerTest.show11Movies">
     <configuration name="PosterManagerTest.show10Movies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Poster" />
       <extension name="coverage">
@@ -94,6 +97,22 @@
       <option name="PACKAGE_NAME" value="ru.netology" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.PosterManagerTest" />
       <option name="METHOD_NAME" value="show10Movies" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PosterManagerTest.show11Movies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Poster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.PosterManagerTest" />
+      <option name="METHOD_NAME" value="show11Movies" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,6 +134,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PosterRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Poster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.neetologyRepository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.neetologyRepository" />
+      <option name="MAIN_CLASS_NAME" value="ru.neetologyRepository.PosterRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PosterRepositoryTest.shouldFindAllAndSaveMovie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Poster" />
       <extension name="coverage">
@@ -131,45 +165,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PosterRepositoryTest.shouldFindByIdMovie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Poster" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.neetologyRepository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.neetologyRepository" />
-      <option name="MAIN_CLASS_NAME" value="ru.neetologyRepository.PosterRepositoryTest" />
-      <option name="METHOD_NAME" value="shouldFindByIdMovie" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PosterRepositoryTest.shouldNotFindByIdMovie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Poster" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.neetologyRepository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.neetologyRepository" />
-      <option name="MAIN_CLASS_NAME" value="ru.neetologyRepository.PosterRepositoryTest" />
-      <option name="METHOD_NAME" value="shouldNotFindByIdMovie" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PosterManagerTest.show10Movies" />
+        <item itemvalue="JUnit.PosterManagerTest.show11Movies" />
         <item itemvalue="JUnit.PosterManagerTest.show5Movies" />
+        <item itemvalue="JUnit.PosterManagerTest.show10Movies" />
+        <item itemvalue="JUnit.PosterRepositoryTest" />
         <item itemvalue="JUnit.PosterRepositoryTest.shouldFindAllAndSaveMovie" />
-        <item itemvalue="JUnit.PosterRepositoryTest.shouldFindByIdMovie" />
-        <item itemvalue="JUnit.PosterRepositoryTest.shouldNotFindByIdMovie" />
       </list>
     </recent_temporary>
   </component>
@@ -260,38 +262,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="555" y="135" key="Github.UntrackedFilesDialog/0.0.1600.860@0.0.1600.860" timestamp="1602966142611" />
-    <state width="1557" height="233" key="GridCell.Tab.0.bottom" timestamp="1603145089546">
+    <state width="1557" height="155" key="GridCell.Tab.0.bottom" timestamp="1603146889546">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="233" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1603145089546" />
-    <state width="1557" height="233" key="GridCell.Tab.0.center" timestamp="1603145089546">
+    <state width="1557" height="155" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1603146889546" />
+    <state width="1557" height="155" key="GridCell.Tab.0.center" timestamp="1603146889546">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="233" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1603145089546" />
-    <state width="1557" height="233" key="GridCell.Tab.0.left" timestamp="1603145089546">
+    <state width="1557" height="155" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1603146889546" />
+    <state width="1557" height="155" key="GridCell.Tab.0.left" timestamp="1603146889546">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="233" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1603145089546" />
-    <state width="1557" height="233" key="GridCell.Tab.0.right" timestamp="1603145089546">
+    <state width="1557" height="155" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1603146889546" />
+    <state width="1557" height="155" key="GridCell.Tab.0.right" timestamp="1603146889546">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="233" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1603145089546" />
-    <state width="1557" height="233" key="GridCell.Tab.1.bottom" timestamp="1603145089546">
+    <state width="1557" height="155" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1603146889546" />
+    <state width="1557" height="340" key="GridCell.Tab.1.bottom" timestamp="1603146636443">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="233" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1603145089546" />
-    <state width="1557" height="233" key="GridCell.Tab.1.center" timestamp="1603145089546">
+    <state width="1557" height="340" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1603146636443" />
+    <state width="1557" height="340" key="GridCell.Tab.1.center" timestamp="1603146636443">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="233" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1603145089546" />
-    <state width="1557" height="233" key="GridCell.Tab.1.left" timestamp="1603145089546">
+    <state width="1557" height="340" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1603146636443" />
+    <state width="1557" height="340" key="GridCell.Tab.1.left" timestamp="1603146636442">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="233" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1603145089546" />
-    <state width="1557" height="233" key="GridCell.Tab.1.right" timestamp="1603145089546">
+    <state width="1557" height="340" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1603146636442" />
+    <state width="1557" height="340" key="GridCell.Tab.1.right" timestamp="1603146636443">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="233" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1603145089546" />
+    <state width="1557" height="340" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1603146636443" />
     <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1603063599551">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

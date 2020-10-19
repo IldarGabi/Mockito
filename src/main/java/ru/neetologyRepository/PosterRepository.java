@@ -9,6 +9,7 @@ public class PosterRepository {
     public UpdatePoster[] findAll() {
         return movies;
     }
+
 //    добавляет объект в массив
     public void save(UpdatePoster movie) {
         int length = movies.length + 1;
@@ -18,6 +19,7 @@ public class PosterRepository {
         tmp[lastIndex] = movie;
         movies = tmp;
     }
+
 //    возвращает объект по идентификатору (либо null, если такого объекта нет)
     public UpdatePoster findById(int id) {
         for (UpdatePoster movie : movies) {

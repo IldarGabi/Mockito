@@ -1,7 +1,6 @@
 package ru.neetologyRepository;
 
 import org.junit.jupiter.api.BeforeEach;
-import ru.netology.PosterManager;
 import ru.netology.UpdatePoster;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -42,7 +41,7 @@ class PosterRepositoryTest {
     @Test
     void shouldFindAllAndSaveMovie() {
         UpdatePoster[] actual = repository.findAll();
-        UpdatePoster[] expected = new UpdatePoster[]{movie1, movie2, movie3, movie4, movie5, movie6, movie7,movie8, movie9, movie10, movie11};
+        UpdatePoster[] expected = new UpdatePoster[]{movie1, movie2, movie3, movie4, movie5, movie6, movie7, movie8, movie9, movie10, movie11};
         assertArrayEquals(expected, actual);
         System.out.println(Arrays.toString(actual));
     }

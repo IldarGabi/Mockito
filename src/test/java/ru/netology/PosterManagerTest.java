@@ -4,8 +4,9 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import ru.netology.PosterManager;
 import ru.neetologyRepository.PosterRepository;
+
+import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.mockito.Mockito.*;
@@ -29,38 +30,42 @@ public class PosterManagerTest {
     private UpdatePoster movie11 = new UpdatePoster(1, 11);
 
 
+
+
     @Test
     void show10Movies() {
-        UpdatePoster[] setMoc = new UpdatePoster[]{movie1, movie2, movie3, movie4, movie5, movie6, movie7, movie8, movie9, movie10, movie11};
+        UpdatePoster[] setMoc = new UpdatePoster[]{movie1, movie2, movie3, movie4, movie5, movie6, movie7, movie8, movie9, movie10};
         doReturn(setMoc).when(repository).findAll();
         PosterManager manager = new PosterManager(repository, 10);
-        UpdatePoster[] expected = new UpdatePoster[]{movie11, movie10, movie9, movie8, movie7, movie8, movie7, movie6, movie5, movie4, movie3, movie2};
+        UpdatePoster[] expected = new UpdatePoster[]{movie1, movie2, movie3, movie4, movie5, movie6, movie7, movie8, movie9, movie10};
         UpdatePoster[] actual = manager.getAll();
         assertArrayEquals(expected, actual);
         verify(repository).findAll();
+        System.out.println(Arrays.toString(actual));
     }
 
-//    @Test
-//    void show5Movies() {
-//        manager = new PosterManager(5);
-//        manager.add(movie1);
-//        manager.add(movie2);
-//        manager.add(movie3);
-//        manager.add(movie4);
-//        manager.add(movie5);
-//        UpdatePoster[] expected = new UpdatePoster[]{movie5, movie4, movie3, movie2, movie1};
-//        UpdatePoster[] actual = manager.getAll();
-//        assertArrayEquals(expected, actual);
-//        System.out.println(Arrays.toString(actual));
-//    }
-//
-//    @Test
-//    void show11Movies() {
-//        manager = new PosterManager(11);
-//        UpdatePoster[] expected = new UpdatePoster[]{movie11, movie10, movie9, movie8, movie7, movie6, movie5, movie4, movie3, movie2, movie1};
-//        UpdatePoster[] actual = manager.getAll();
-//        assertArrayEquals(expected, actual);
-//        System.out.println(Arrays.toString(actual));
-//    }
+    @Test
+    void show5Movies() {
+        UpdatePoster[] setMoc = new UpdatePoster[]{movie1, movie2, movie3, movie4, movie5};
+        doReturn(setMoc).when(repository).findAll();
+        PosterManager manager = new PosterManager(repository, 5);
+        UpdatePoster[] expected = new UpdatePoster[]{movie1, movie2, movie3, movie4, movie5};
+        UpdatePoster[] actual = manager.getAll();
+        assertArrayEquals(expected, actual);
+        verify(repository).findAll();
+        System.out.println(Arrays.toString(actual));
+    }
+
+    @Test
+    void show11Movies() {
+        UpdatePoster[] setMoc = new UpdatePoster[]{movie1, movie2, movie3, movie4, movie5, movie6, movie7, movie8, movie9, movie10,movie11};
+        doReturn(setMoc).when(repository).findAll();
+        PosterManager manager = new PosterManager(repository, 11);
+        UpdatePoster[] expected = new UpdatePoster[]{movie1, movie2, movie3, movie4, movie5, movie6, movie7, movie8, movie9, movie10,movie11};
+        UpdatePoster[] actual = manager.getAll();
+        assertArrayEquals(expected, actual);
+        verify(repository).findAll();
+        System.out.println(Arrays.toString(actual));
+    }
 
 }
