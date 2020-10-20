@@ -8,10 +8,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 class UpdatePoster {
-  private int posterId;
-  private int movieId;
-//  private String movieName;
+    private int posterId;
+    private int movieId;
 }
-//
-//  private int productPrice;
-//  private int count;

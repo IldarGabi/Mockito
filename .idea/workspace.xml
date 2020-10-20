@@ -22,7 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9183c5a-0b07-4a4c-a091-29507e28e665" name="Default Changelist" comment="change code" />
+    <list default="true" id="c9183c5a-0b07-4a4c-a091-29507e28e665" name="Default Changelist" comment="change code task#1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/PosterManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/PosterManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/UpdatePoster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/UpdatePoster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/PosterManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/PosterManagerTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +81,7 @@
       <recent name="C:\Users\User\QA igabi\Projects\IDE 12 (Autotet 7)\Poster\src\main\java\ru\netology" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PosterManagerTest.show11Movies">
+  <component name="RunManager" selected="JUnit.PosterManagerTest.removeByNoIdMovies">
     <configuration name="PosterManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Poster" />
       <extension name="coverage">
@@ -92,7 +97,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PosterManagerTest.addMovies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PosterManagerTest.removeByNoIdMovies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Poster" />
       <extension name="coverage">
         <pattern>
@@ -102,39 +107,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.PosterManagerTest" />
-      <option name="METHOD_NAME" value="addMovies" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PosterManagerTest.show10Movies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Poster" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.PosterManagerTest" />
-      <option name="METHOD_NAME" value="show10Movies" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PosterManagerTest.show11Movies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Poster" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.PosterManagerTest" />
-      <option name="METHOD_NAME" value="show11Movies" />
+      <option name="METHOD_NAME" value="removeByNoIdMovies" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,13 +129,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PosterManagerTest.showSub0Movies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Poster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.PosterManagerTest" />
+      <option name="METHOD_NAME" value="showSub0Movies" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PosterManagerTest.showUnder0Movies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Poster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.PosterManagerTest" />
+      <option name="METHOD_NAME" value="showUnder0Movies" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PosterManagerTest.show11Movies" />
-        <item itemvalue="JUnit.PosterManagerTest.show10Movies" />
-        <item itemvalue="JUnit.PosterManagerTest.show5Movies" />
+        <item itemvalue="JUnit.PosterManagerTest.removeByNoIdMovies" />
+        <item itemvalue="JUnit.PosterManagerTest.showUnder0Movies" />
         <item itemvalue="JUnit.PosterManagerTest" />
-        <item itemvalue="JUnit.PosterManagerTest.addMovies" />
+        <item itemvalue="JUnit.PosterManagerTest.show5Movies" />
+        <item itemvalue="JUnit.PosterManagerTest.showSub0Movies" />
       </list>
     </recent_temporary>
   </component>
@@ -214,9 +219,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add gitignore" />
     <MESSAGE value="change code" />
-    <option name="LAST_COMMIT_MESSAGE" value="change code" />
+    <MESSAGE value="change code task#1" />
+    <option name="LAST_COMMIT_MESSAGE" value="change code task#1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="605" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1603206412454">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="146" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1603206412454" />
     <state x="583" y="299" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602973943102">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -245,22 +255,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="555" y="135" key="Github.UntrackedFilesDialog/0.0.1600.860@0.0.1600.860" timestamp="1602966142611" />
-    <state width="1557" height="199" key="GridCell.Tab.0.bottom" timestamp="1603063343585">
+    <state width="1557" height="153" key="GridCell.Tab.0.bottom" timestamp="1603209386559">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="199" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1603063343585" />
-    <state width="1557" height="199" key="GridCell.Tab.0.center" timestamp="1603063343585">
+    <state width="1557" height="153" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1603209386559" />
+    <state width="1557" height="153" key="GridCell.Tab.0.center" timestamp="1603209386558">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="199" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1603063343585" />
-    <state width="1557" height="199" key="GridCell.Tab.0.left" timestamp="1603063343585">
+    <state width="1557" height="153" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1603209386558" />
+    <state width="1557" height="153" key="GridCell.Tab.0.left" timestamp="1603209386558">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="199" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1603063343585" />
-    <state width="1557" height="199" key="GridCell.Tab.0.right" timestamp="1603063343585">
+    <state width="1557" height="153" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1603209386558" />
+    <state width="1557" height="153" key="GridCell.Tab.0.right" timestamp="1603209386558">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="199" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1603063343585" />
+    <state width="1557" height="153" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1603209386558" />
     <state width="1557" height="418" key="GridCell.Tab.1.bottom" timestamp="1603061401507">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
