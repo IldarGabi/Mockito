@@ -8,6 +8,9 @@ public class PosterManager {
     }
 
     public PosterManager(int countMovie) {
+        if (countMovie > 10) {
+            this.countMovie = countMovie;
+        }
         if (countMovie >= 0) {
             this.countMovie = countMovie;
         }
@@ -42,10 +45,19 @@ public class PosterManager {
         }
     }
 
-    public UpdatePoster[] getAll() {
-        UpdatePoster[] result = new UpdatePoster[movies.length];
-        for (int i = 0; i < result.length; i++) {
+    public UpdatePoster[] getLimit() {
+        UpdatePoster[] result1 = new UpdatePoster[movies.length];
+        for (int i = 0; i < result1.length; i++) {
             int index = movies.length - i - 1;
+            result1[i] = movies[index];
+        }
+        return result1;
+    }
+
+    public UpdatePoster[] getAll() {
+        UpdatePoster[] result = new UpdatePoster[countMovie];
+        for (int i = 0; i < result.length; i++) {
+            int index = countMovie - i - 1;
             result[i] = movies[index];
         }
         return result;
