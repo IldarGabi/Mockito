@@ -52,7 +52,7 @@ class PosterManagerTest {
     void show10Movies() {
         manager = new PosterManager(10);
         assignValue();
-        UpdatePoster[] expected = new UpdatePoster[]{movie10, movie9, movie8, movie7, movie6, movie5, movie4, movie3, movie2, movie1};
+        UpdatePoster[] expected = new UpdatePoster[]{movie11, movie10, movie9, movie8, movie7, movie6, movie5, movie4, movie3, movie2};
         UpdatePoster[] actual = manager.getAll();
         assertArrayEquals(expected, actual);
         System.out.println(Arrays.toString(actual));
@@ -62,7 +62,7 @@ class PosterManagerTest {
     void show5Movies() {
         manager = new PosterManager(5);
         assignValue();
-        UpdatePoster[] expected = new UpdatePoster[]{movie5, movie4, movie3, movie2, movie1};
+        UpdatePoster[] expected = new UpdatePoster[]{movie11, movie10, movie9, movie8, movie7};
         UpdatePoster[] actual = manager.getAll();
         assertArrayEquals(expected, actual);
         System.out.println(Arrays.toString(actual));
@@ -84,7 +84,7 @@ class PosterManagerTest {
     void removeByNoIdMovies() {
         assignValue();
         manager.removeByNoId(-9999);
-        UpdatePoster[] expected = new UpdatePoster[]{movie10, movie9, movie8, movie7, movie6, movie5, movie4, movie3, movie2, movie1};
+        UpdatePoster[] expected = new UpdatePoster[]{movie11, movie10, movie9, movie8, movie7, movie6, movie5, movie4, movie3, movie2};
         UpdatePoster[] actual = manager.getAll();
         assertArrayEquals(expected, actual);
         System.out.println(Arrays.toString(actual));
@@ -103,8 +103,7 @@ class PosterManagerTest {
     @Test
     void showUnder0Movies() {
         manager = new PosterManager(-5);
-        assignValue();
-        UpdatePoster[] expected = new UpdatePoster[]{movie10, movie9, movie8, movie7, movie6, movie5, movie4, movie3, movie2, movie1};
+        UpdatePoster[] expected = new UpdatePoster[]{};
         UpdatePoster[] actual = manager.getAll();
         assertArrayEquals(expected, actual);
         System.out.println(Arrays.toString(actual));
@@ -115,7 +114,7 @@ class PosterManagerTest {
         manager = new PosterManager(33);
         assignValue();
         UpdatePoster[] expected = new UpdatePoster[]{movie11, movie10, movie9, movie8, movie7, movie6, movie5, movie4, movie3, movie2, movie1};
-        UpdatePoster[] actual = manager.getLimit();
+        UpdatePoster[] actual = manager.getAll();
         assertArrayEquals(expected, actual);
         System.out.println(Arrays.toString(actual));
     }
