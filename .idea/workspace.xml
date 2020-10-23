@@ -3,10 +3,29 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9183c5a-0b07-4a4c-a091-29507e28e665" name="Default Changelist" comment="change code">
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/CartManagerTestNonEmpty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/CartManagerTestNonEmpty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/CartManagerTestNonEmptyWithSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/CartManagerTestNonEmptyWithSetup.java" afterDir="false" />
+    <list default="true" id="c9183c5a-0b07-4a4c-a091-29507e28e665" name="Default Changelist" comment="added method &quot;getLimit&quot; and change method &quot;getAll&quot;. added tests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/PosterManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/PosterManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/PosterManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/PosterManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,22 +60,28 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IDE11 (Autotest 6)/NewRadio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ru.netology" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.netology" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.netology" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\QA igabi\Projects\IDE 12 (Autotet 7)\Poster\src\test\java\ru\netology" />
       <recent name="C:\Users\User\QA igabi\Projects\IDE 12 (Autotet 7)\Poster\src\main\java\ru\netology" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CartManagerTestNonEmpty">
-    <configuration name="CartManagerTestNonEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PosterManagerTest">
+    <configuration name="PosterManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Poster" />
       <extension name="coverage">
         <pattern>
@@ -65,13 +90,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.CartManagerTestNonEmpty" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.PosterManagerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CartManagerTestNonEmptyWithSetup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PosterManagerTest.show0Movies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Poster" />
       <extension name="coverage">
         <pattern>
@@ -80,29 +105,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.CartManagerTestNonEmptyWithSetup" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CartManagerTestNonEmptyWithSetup.shouldNotRemoveIfNotExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Poster" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.CartManagerTestNonEmptyWithSetup" />
-      <option name="METHOD_NAME" value="shouldNotRemoveIfNotExists" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.PosterManagerTest" />
+      <option name="METHOD_NAME" value="show0Movies" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CartManagerTestNonEmpty.shouldNotRemoveIfNotExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PosterManagerTest.showAllMovies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Poster" />
       <extension name="coverage">
         <pattern>
@@ -111,8 +121,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.CartManagerTestNonEmpty" />
-      <option name="METHOD_NAME" value="shouldNotRemoveIfNotExists" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.PosterManagerTest" />
+      <option name="METHOD_NAME" value="showAllMovies" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PosterManagerTest.showOverLimitMovies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Poster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.PosterManagerTest" />
+      <option name="METHOD_NAME" value="showOverLimitMovies" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PosterManagerTest.showUnder0Movies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Poster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.PosterManagerTest" />
+      <option name="METHOD_NAME" value="showUnder0Movies" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,10 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CartManagerTestNonEmpty" />
-        <item itemvalue="JUnit.CartManagerTestNonEmptyWithSetup" />
-        <item itemvalue="JUnit.CartManagerTestNonEmpty.shouldNotRemoveIfNotExists" />
-        <item itemvalue="JUnit.CartManagerTestNonEmptyWithSetup.shouldNotRemoveIfNotExists" />
+        <item itemvalue="JUnit.PosterManagerTest" />
+        <item itemvalue="JUnit.PosterManagerTest.showAllMovies" />
+        <item itemvalue="JUnit.PosterManagerTest.showOverLimitMovies" />
+        <item itemvalue="JUnit.PosterManagerTest.showUnder0Movies" />
+        <item itemvalue="JUnit.PosterManagerTest.show0Movies" />
       </list>
     </recent_temporary>
   </component>
@@ -150,19 +193,67 @@
       <option name="project" value="LOCAL" />
       <updated>1602968269492</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="change code">
+      <created>1602968565258</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602968565258</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added method &quot;getLimit&quot; and change method &quot;getAll&quot;. added tests">
+      <created>1603229479763</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603229479763</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add gitignore" />
     <MESSAGE value="change code" />
-    <option name="LAST_COMMIT_MESSAGE" value="change code" />
+    <MESSAGE value="change code task#1" />
+    <MESSAGE value="added method &quot;getLimit&quot; and change method &quot;getAll&quot;. added tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added method &quot;getLimit&quot; and change method &quot;getAll&quot;. added tests" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1602966311786">
+    <state x="605" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1603206412454">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1602966311786" />
+    <state x="605" y="146" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1603206412454" />
+    <state x="583" y="299" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602973943102">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="583" y="299" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1602973943102" />
+    <state x="583" y="267" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1603052118972">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="583" y="267" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1600.860@0.0.1600.860" timestamp="1603052118972" />
+    <state x="469" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602973622255">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="469" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1602973622255" />
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603061221522">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1603061221522" />
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1603317816164">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1603317816164" />
     <state x="678" y="328" key="Github.ShareDialog" timestamp="1602966136260">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -171,45 +262,57 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="555" y="135" key="Github.UntrackedFilesDialog/0.0.1600.860@0.0.1600.860" timestamp="1602966142611" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1602968314418">
+    <state width="1557" height="172" key="GridCell.Tab.0.bottom" timestamp="1603485143892">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1602968314418" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1602968314418">
+    <state width="1557" height="172" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1603485143892" />
+    <state width="1557" height="172" key="GridCell.Tab.0.center" timestamp="1603485143892">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1602968314418" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1602968314418">
+    <state width="1557" height="172" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1603485143892" />
+    <state width="1557" height="172" key="GridCell.Tab.0.left" timestamp="1603485143892">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1602968314418" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1602968314418">
+    <state width="1557" height="172" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1603485143892" />
+    <state width="1557" height="172" key="GridCell.Tab.0.right" timestamp="1603485143892">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1602968314418" />
-    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1602967851169">
+    <state width="1557" height="172" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1603485143892" />
+    <state width="1557" height="340" key="GridCell.Tab.1.bottom" timestamp="1603484341381">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1602967851169" />
-    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1602967851168">
+    <state width="1557" height="340" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1603484341381" />
+    <state width="1557" height="340" key="GridCell.Tab.1.center" timestamp="1603484341381">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1602967851168" />
-    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1602967851168">
+    <state width="1557" height="340" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1603484341381" />
+    <state width="1557" height="340" key="GridCell.Tab.1.left" timestamp="1603484341381">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1602967851168" />
-    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1602967851169">
+    <state width="1557" height="340" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1603484341381" />
+    <state width="1557" height="340" key="GridCell.Tab.1.right" timestamp="1603484341381">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1602967851169" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1602968270465">
+    <state width="1557" height="340" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1603484341381" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1603229481446">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1602968270465" />
-    <state x="571" y="228" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602966046047">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1603229481446" />
+    <state x="571" y="228" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1603052373081">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="571" y="228" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1600.860@0.0.1600.860" timestamp="1602966046047" />
+    <state x="571" y="228" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1600.860@0.0.1600.860" timestamp="1603052373081" />
+    <state x="182" y="91" key="new project wizard" timestamp="1603317818178">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="182" y="91" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1603317818178" />
+    <state x="500" y="187" key="refactoring.ChangeSignatureDialog" timestamp="1603056299553">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="500" y="187" key="refactoring.ChangeSignatureDialog/0.0.1600.860@0.0.1600.860" timestamp="1603056299553" />
+    <state x="456" y="195" key="run.anything.popup" timestamp="1603063019064">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1603063019064" />
   </component>
 </project>
